@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Khazad
+%define		pdir	Crypt
+%define		pnam	Khazad
 Summary:	Crypt::Khazad - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Khazad
