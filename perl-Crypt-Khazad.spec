@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Khazad
 Summary:	Crypt::Khazad - Crypt::CBC-compliant block cipher
-Summary(pl):	Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):   Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Khazad
 Version:	1.0.3
 Release:	1
@@ -25,12 +25,12 @@ legacy-level block ciphers. Khazad has many similarities with
 Rijndael, and has an extremely high rate of diffusion. This module
 supports the Crypt::CBC interface.
 
-%description -l pl
-Khazad to 64-bitowy szyfr blokowy ze 128-bitowym kluczem. Zosta≥
+%description -l pl.UTF-8
+Khazad to 64-bitowy szyfr blokowy ze 128-bitowym kluczem. Zosta≈Ç
 opracowany przez Vincenta Rijmena i Paulo S. L. M. Baretto. Khazad
-jest finalist± NESSIE w kategorii spadkowych szyfrÛw blokowych.
-Khazad ma wiele podobieÒstw do algorytmu Rijndael i ma bardzo
-duøy wspÛ≥czynnik dyfuzji. Ten modu≥ obs≥uguje interfejs Crypt::CBC.
+jest finalistƒÖ NESSIE w kategorii spadkowych szyfr√≥w blokowych.
+Khazad ma wiele podobie≈Ñstw do algorytmu Rijndael i ma bardzo
+du≈ºy wsp√≥≈Çczynnik dyfuzji. Ten modu≈Ç obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
