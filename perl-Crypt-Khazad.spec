@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Khazad
 Summary:	Crypt::Khazad - Crypt::CBC-compliant block cipher
-Summary(pl.UTF-8):   Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):	Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Khazad
 Version:	1.0.3
 Release:	1
