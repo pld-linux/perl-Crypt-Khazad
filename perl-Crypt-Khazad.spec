@@ -10,10 +10,11 @@ Summary(pl.UTF-8):	Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Khazad
 Version:	1.0.3
 Release:	3
-License:	GPL
+License:	GPL v2
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f6908bf11cb780d455a8779a60ecc570
+URL:		http://search.cpan.org/dist/Crypt-Khazad/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
