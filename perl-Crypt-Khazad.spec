@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Khazad.pm
 %dir %{perl_vendorarch}/auto/Crypt/Khazad
-%{perl_vendorarch}/auto/Crypt/Khazad/Khazad.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Khazad/Khazad.so
 %{_mandir}/man3/*
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
