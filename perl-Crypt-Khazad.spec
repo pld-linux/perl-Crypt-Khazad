@@ -8,7 +8,7 @@ Summary:	Crypt::Khazad - Crypt::CBC-compliant block cipher
 Summary(pl.UTF-8):	Crypt::Khazad - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Khazad
 Version:	1.0.3
-Release:	15
+Release:	16
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
